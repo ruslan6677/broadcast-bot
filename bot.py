@@ -11,7 +11,7 @@ from pyrogram import Client
 
 if bool(os.environ.get("ENV", False)):
     from config import Config
-    from import LOGGER
+    from config import LOGGER
 else:
     from config import Config
     from config import LOGGER

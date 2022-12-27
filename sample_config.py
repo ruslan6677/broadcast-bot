@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-class Config(object):
+class Config:
     # Get a bot token from botfather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 

@@ -27,7 +27,7 @@ class Config:
     API_HASH = os.environ.get("API_HASH", "79c295e05c970ddd724f0762ba275104")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "~mongodb+srv://music:music@cluster0.sh6h4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://music:music@cluster0.sh6h4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
     # Group / channel username of the support chat
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "")
